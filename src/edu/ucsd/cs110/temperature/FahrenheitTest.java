@@ -5,7 +5,7 @@ import static org.testng.AssertJUnit.assertTrue;
 
 import org.junit.Test;
 public class FahrenheitTest {
-    private float delta = 0.001f;
+    private float delta = 0.01f;
     @Test
     public void testFahrenheit(){
         float value = 12.34f;

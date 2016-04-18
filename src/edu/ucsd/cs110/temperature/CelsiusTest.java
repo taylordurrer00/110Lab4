@@ -1,5 +1,8 @@
 package edu.ucsd.cs110.temperature;
 import static org.junit.Assert.*;
+import static org.testng.AssertJUnit.assertEquals;
+import static org.testng.AssertJUnit.assertTrue;
+
 import org.junit.Test;
 public class CelsiusTest {
     private float delta = 0.001f;
